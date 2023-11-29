@@ -6,6 +6,9 @@
 fn main() {
     // Booleans (`bool`)
 
+    let p = vec![0, 1, 2];
+    println!("{}", p[2]);
+
     let is_morning = true;
     if is_morning {
         println!("Good morning!");
